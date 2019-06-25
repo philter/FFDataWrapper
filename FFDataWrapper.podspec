@@ -2,7 +2,8 @@ Pod::Spec.new do |spec|
     spec.name         = 'FFDataWrapper'
     spec.version      = '1.9'
     spec.ios.deployment_target = "9.3"
-	spec.osx.deployment_target = "10.10"
+    spec.osx.deployment_target = "10.10"
+    spec.tvos.deployment_target = "10.0"
     spec.license      = { :type => 'MIT', :file => 'LICENSE' }
     spec.summary      = 'Wrapper for data or string objects with custom internal storage'
     spec.homepage     = 'https://github.com/flockoffiles/FFDataWrapper'
